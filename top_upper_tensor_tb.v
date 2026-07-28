@@ -84,7 +84,7 @@ module top_upper_tensor_tb;
 
         // Apply reset
         #20;
-        rst = 0;
+        rst = 1;
 
         // ------------------
 		// Wait 100 ns for global reset to finish
