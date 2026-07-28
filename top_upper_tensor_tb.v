@@ -69,7 +69,7 @@ module top_upper_tensor_tb;
     initial begin
         // Initialize
         clk      = 0;
-        rst      = 1;
+        rst      = 0;
         start    = 0;
         wenA     = 0;
         wenB     = 0;
